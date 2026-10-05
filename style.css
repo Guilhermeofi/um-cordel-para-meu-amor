@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+
+@font-face {
+    font-family: 'titulo';
+    src: url('Matcha\ Home.ttf') format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+html, body {
+    min-height: 100vw;
+   
+    
+}
+.titulo{
+background: linear-gradient(to right, #032de7, #990199);
+    text-align: center;
+    padding: 60px;
+    color: aliceblue;
+    font-family: 'titulo';
+    font-size: 2vw;
+    
+}
+p{
+     text-align: left;
+    
+    line-height: 2.4em;
+    
+     font-family: 'Chewy';
+    font-size: 3.5vw;
+    
+    
+
+}
+.foto{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    color: aliceblue; 
+    box-shadow: inset   6px 13px 13px #00000085;
+    
+}
+.foto pre p {
+    background-color: rgba(0, 0, 0, 0.226);
+   display: inline-block;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-family: 'Chewy';
+    font-size: 2.5vw;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px #000000;
+    box-shadow: 1px 1px 10px #000000;
+    border-radius: 10px;
+}
+.rodape{
+    text-align: center;
+    padding: 20px;
+    background-color: #032de7;
+    color: aliceblue;
+    text-decoration: underline;
+    
+}
+.poema
+{
+    
+    
+    background-color: #dcddd3;
+}
+div{
+    padding-bottom: 5vw;
+    padding-top: 5vw;
+    font-family: 'Chewy' ;
+}
+
+    div#foto1{
+        background-image: url(img/IMG_1428_Original.jpg);
+        background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat; 
+         background-size: 100% 100%;
+          background-attachment: fixed;
+      
+    }
+
+    div#foto2{
+         background-image: url(img/IMG_3442.jpg);  
+         background-position: center center;
+         background-size: cover;
+         background-repeat: no-repeat;  
+         background-size: 100% 100%;
+         background-attachment: fixed;
+      
+    }
+
+    #foto2 p{
+        margin-left: 60vw;
+    }
+
